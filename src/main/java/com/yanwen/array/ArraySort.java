@@ -14,8 +14,13 @@ public class ArraySort {
             int[] array = createArray(i, 50);
             // 冒泡排序
             //bubbleSortAsc(array);
-            insertionSortAsc(array);
+          //  insertionSortAsc(array);
+            System.out.print("jdk 自带排序:");
+            //jdk 自带排序
+            Arrays.sort(array);
+            print(array);
         }
+
 
        //选择排序
        // selectionSortAsc(array);

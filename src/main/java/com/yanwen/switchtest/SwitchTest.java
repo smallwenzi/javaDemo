@@ -12,6 +12,13 @@ package com.yanwen.switchtest;
  * enum会调用其ordinal方法来剥去语法糖，转化为int 类型的比较方式
  * 对String 或enum类型的switch 变量类型，要预先进行null判断，
  * 避免抛出NPE
+ *
+ * 其他语法糖
+ * 泛型
+ * 自动拆箱与装箱
+ * foreach循环
+ *
+ * 有兴趣需要就研究源码
  */
 public class SwitchTest
 {
